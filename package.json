@@ -1,7 +1,7 @@
 {
   "name": "api.kazibyte",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "bun shin cache:clear && bun run --hot src/index.ts",
     "compile": "bun shin cache:clear && bun build --compile --minify --sourcemap ./src/index.ts --outfile",
